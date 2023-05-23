@@ -35,7 +35,7 @@ jobs:
         with:
           node-version: 18
           cache: 'yarn'
-          cache-dependency-path: './pets/package-lock.json'
+          cache-dependency-path: 'pnpm-lock.yaml'
       - name: Install dependencies
         run: yarn install
       - name: Build
