@@ -32,7 +32,15 @@ function Navbar() {
 							</a>
 						</li>
 						<li className="col-4 d-none d-md-block li-insta">
-							<button className="btn-instagram">
+							<button
+								onClick={() => {
+									window.open(
+										"https://www.instagram.com/lovesandcolombia/",
+										"_blank"
+									);
+								}}
+								className="btn-instagram"
+							>
 								<i className="fab fa-instagram"></i>
 							</button>
 						</li>
