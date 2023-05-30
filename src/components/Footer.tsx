@@ -34,17 +34,17 @@ function Footer() {
 							<div className="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
 								<h6 className="text-uppercase fw-bold mb-4">Productos</h6>
 								<p>
-									<a href="#!" className="text-reset">
+									<a href="#seccion-productos" className="text-reset">
 										Arenero luxury
 									</a>
 								</p>
 								<p>
-									<a href="#!" className="text-reset">
+									<a href="#seccion-productos" className="text-reset">
 										Arena Love Sand
 									</a>
 								</p>
 								<p>
-									<a href="#!" className="text-reset">
+									<a href="#seccion-productos" className="text-reset">
 										Iglu luxury
 									</a>
 								</p>

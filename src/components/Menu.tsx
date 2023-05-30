@@ -58,6 +58,11 @@ function Menu() {
 					>
 						Contacto
 					</a>
+					<div>
+						<button className="btn-instagram">
+							<i className="fab fa-instagram"></i>
+						</button>
+					</div>
 				</div>
 			</div>
 		</>

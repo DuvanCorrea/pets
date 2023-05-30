@@ -10,6 +10,17 @@ type Producto = {
 function Productos() {
 	const productos: Array<Producto> = [
 		{
+			nombre: "Arena Love Sand",
+			imagen: "arena.jpg",
+			caracteristicas: [
+				"Incluye virutas de cedro real para un control natural de olores.",
+				"Todas las arenas para gatos Love sand incluyen SANEL un atrayente natural para gatos hecho de una resina de árbol.",
+				"Sanel ayuda a entrenar a los gatitos y gatos mayores a usar la caja arenera.",
+			],
+			descripccion:
+				"Nuestra arena aglomerante súper premium LOVE SAND para gatos Ahora hecha con bentonita de Wyoming 100% natural para obtener mejor aglomeraciones más fuertes.",
+		},
+		{
 			nombre: "Arenero luxury",
 			imagen: "arenero-luxory.jpg",
 			caracteristicas: [
@@ -24,17 +35,6 @@ function Productos() {
 			],
 			descripccion:
 				"Arenero ideal para gatos grandes y medianos con rejilla limpia patas y pestaña anti derrame.",
-		},
-		{
-			nombre: "Arena Love Sand",
-			imagen: "arena.jpg",
-			caracteristicas: [
-				"Incluye virutas de cedro real para un control natural de olores.",
-				"Todas las arenas para gatos Love sand incluyen SANEL un atrayente natural para gatos hecho de una resina de árbol.",
-				"Sanel ayuda a entrenar a los gatitos y gatos mayores a usar la caja arenera.",
-			],
-			descripccion:
-				"Nuestra arena aglomerante súper premium LOVE SAND para gatos Ahora hecha con bentonita de Wyoming 100% natural para obtener mejor aglomeraciones más fuertes.",
 		},
 		{
 			nombre: "Iglu luxury",
