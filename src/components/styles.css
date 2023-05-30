@@ -39,6 +39,7 @@ a {
 	position: relative;
 	display: inline-block;
 	color: var(--color-cafe-oscuro);
+	font-size: 24px;
 }
 
 .fuente-cafe-oscuro::after {
@@ -193,21 +194,55 @@ a {
 .btn-contactar {
 	background-color: var(--verde-whatsapp);
 	color: white;
-	padding: 10px;
 	border: none;
-	border-radius: 5px;
 	border-radius: 50px;
+	width: 80px;
+	height: 80px;
+}
+
+.btn-contactar {
+	position: relative;
+}
+
+.btn-contactar::before {
+	content: attr(title);
+	position: absolute;
+	bottom: 25%;
+	right: -240px;
+	transform: translateX(50%);
+	padding: 8px;
+	background-color: var(--verde-whatsapp);
+	color: var(--color-cafe-crema);
+	border-radius: 4px;
+	font-size: 14px;
+	opacity: 0;
+	visibility: hidden;
+	transition: opacity 0.2s, visibility 0.2s, transform 0.2s;
+	white-space: nowrap;
+	font-size: 20px; /* Ajusta este valor para aumentar el tamaño de letra del tooltip */
+	font-weight: bold;
+}
+
+.btn-contactar:hover::before {
+	opacity: 1;
+	visibility: visible;
+	transform: translateX(-100%);
+}
+
+.btn-contactar:hover::after {
+	opacity: 1;
+	visibility: visible;
+	transform: translateX(-100%);
 }
 
 .btn-contactar i {
-	color: white;
-	margin-right: 5px;
+	font-size: 40px;
 }
 
 .floating-button {
 	position: fixed;
 	bottom: 20px;
-	right: 20px;
+	right: 25px;
 	padding: 10px 20px;
 	border: none;
 	cursor: pointer;
@@ -293,4 +328,38 @@ body {
 		1px -1px 0 var(--color-cafe-oscuro), -1px 1px 0 var(--color-cafe-oscuro),
 		1px 1px 0 var(--color-cafe-oscuro);
 }
-  
+
+.btn-instagram {
+	background: linear-gradient(
+		to bottom right,
+		#feda75,
+		#fa7e1e,
+		#d62976,
+		#962fbf,
+		#4f5bd5
+	);
+	color: #fff;
+	border: none;
+	border-radius: 50%;
+	font-size: 20px;
+	transition: background 0.3s;
+	width: 50px;
+	height: 50px;
+}
+
+.btn-instagram:hover {
+	background: linear-gradient(
+		to bottom right,
+		#feda75,
+		#fa7e1e,
+		#d62976,
+		#962fbf,
+		#4f5bd5
+	);
+	cursor: pointer;
+}
+
+.li-insta {
+	display: flex !important;
+	justify-content: center;
+}

@@ -31,7 +31,11 @@ function Navbar() {
 								<img src="./images/logo-basico.png" alt="Logo" />
 							</a>
 						</li>
-						<li className="col-4 d-none d-md-block"></li>
+						<li className="col-4 d-none d-md-block li-insta">
+							<button className="btn-instagram">
+								<i className="fab fa-instagram"></i>
+							</button>
+						</li>
 					</ul>
 					<div className="row d-flex justify-content-end d-lg-none">
 						<button
