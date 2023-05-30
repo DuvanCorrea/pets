@@ -363,3 +363,9 @@ body {
 	display: flex !important;
 	justify-content: center;
 }
+
+@media (max-width: 800px) {
+	.li-insta {
+		display: none !important;
+	}
+}
